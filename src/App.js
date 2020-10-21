@@ -8,7 +8,7 @@ function App() {
           <div className="container">
             <a className="navbar-brand" href="index.html">
               <h2>
-                Host <em>Cloud</em>
+                Lipa <em>City</em>
               </h2>
             </a>
             <button
@@ -47,26 +47,21 @@ function App() {
                 </li>
               </ul>
             </div>
-            <div className="functional-buttons">
-              <ul>
-                <li>
-                  <a href="#">Log in</a>
-                </li>
-                <li>
-                  <a href="#">Sign Up</a>
-                </li>
-              </ul>
-            </div>
           </div>
         </nav>
       </header>
-
+      {/* <video autoPlay muted loop="loop" id="myVideo" preload="auto">
+        <source
+          src="https://www.lacity.org/sites/g/files/wph1221/f/EchoPark_1920x800_loop.mp4"
+          type="video/mp4"
+        />
+      </video> */}
       <div class="banner">
         <div class="container">
           <div class="row">
             <div class="col-md-8 offset-md-2">
               <div class="header-text caption">
-                <h2>Search your domain</h2>
+                <h2>Search the city of lipa</h2>
                 <div id="search-section">
                   <form id="suggestion_form" name="gs" method="get" action="#">
                     <div class="searchText">
@@ -74,43 +69,9 @@ function App() {
                         type="text"
                         name="q"
                         class="searchText"
-                        placeholder="Enter your domain here..."
+                        placeholder="Search..."
                         autocomplete="on"
                       />
-                      <ul>
-                        <li>
-                          <label>
-                            <input type="checkbox" name="ext_com" value="1" />
-                            <span>
-                              .com <em>($10/yr)</em>
-                            </span>
-                          </label>
-                        </li>
-                        <li>
-                          <label>
-                            <input type="checkbox" name="ext_net" value="1" />
-                            <span>
-                              .net <em>($12/yr)</em>
-                            </span>
-                          </label>
-                        </li>
-                        <li>
-                          <label>
-                            <input type="checkbox" name="ext_org" value="1" />
-                            <span>
-                              .org <em>($8/yr)</em>
-                            </span>
-                          </label>
-                        </li>
-                        <li>
-                          <label>
-                            <input type="checkbox" name="ext_in" value="1" />
-                            <span>
-                              .in <em>($6/yr)</em>
-                            </span>
-                          </label>
-                        </li>
-                      </ul>
                     </div>
                     <input
                       type="submit"
